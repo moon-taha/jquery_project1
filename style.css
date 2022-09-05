@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h3{
+	color: #645CAA;
+}
+body{
+	background: linear-gradient(to right, #A460ED,#F07DEA);
+
+}
+.to-do-app{
+	margin-top: 80px;
+}
+
+.add-task{
+    padding: 18px;
+    width: 500px;
+    border: none;
+    font-size: 16px;
+    color: purple;
+
+}
+.add-task:focus{
+	outline: none;
+}
+.task{
+	margin-bottom: 4px;
+	padding: 18px;
+    width: 500px;
+    border: none;
+    font-size: 16px;
+    color: purple;
+    background-color: white;
+}
+.task i{
+	float: right;
+}
+.task i:hover{
+	cursor: pointer;
+}
